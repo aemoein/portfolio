@@ -8,7 +8,7 @@ const About = () => (
       About Me
     </Typography>
     <Typography variant="body1" sx={{ maxWidth: '600px', mx: 'auto' }}>
-    I am a detail-oriented and enthusiastic Software Engineer with a solid foundation in multiple programming languages and a strong passion for technology. I am proficient in database management and experienced in designing and architecting software systems, ensuring that each solution I deliver is robust, scalable, and efficient. I enjoy taking on new challenges and am always eager to contribute to innovative projects that push the boundaries of technology.
+        I am a detail-oriented and enthusiastic Software Engineer with a solid foundation in multiple programming languages and a strong passion for technology. I am proficient in database management and experienced in designing and architecting software systems, ensuring that each solution I deliver is robust, scalable, and efficient. I enjoy taking on new challenges and am always eager to contribute to innovative projects that push the boundaries of technology.
     </Typography>
   </Box>
 );

@@ -27,19 +27,21 @@ const Hero = () => {
       <Typography variant="h6" sx={{ mb: 4 }}>
         Software Engineer | iOS Developer | Full-Stack Developer
       </Typography>
-      <Button
-        variant="contained"
-        color="primary"
-        sx={{
-          animation: 'bounce 2s infinite',
-          '&:hover': {
-            transform: 'scale(1.05)',
-            transition: 'transform 0.3s ease-in-out',
-          },
-        }}
-      >
-        Download Resume
-      </Button>
+      <a href="https://drive.google.com/uc?export=download&id=162YqgowDHboTAoC8SC6rxaiuGFfjjyQ9" target="_blank" rel="noopener noreferrer">
+        <Button
+          variant="contained"
+          color="primary"
+          sx={{
+            animation: 'bounce 2s infinite',
+            '&:hover': {
+              transform: 'scale(1.05)',
+              transition: 'transform 0.3s ease-in-out',
+            },
+          }}
+        >
+          Download Resume
+        </Button>
+      </a>
     </Box>
   );
 };
